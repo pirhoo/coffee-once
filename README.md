@@ -9,7 +9,6 @@ Install the module with: `npm install coffee-once`
 
 ```js
 var coffee-once = require('coffee-once');
-coffee-once.awesome(); // "awesome"
 ```
 
 Install with cli command
@@ -19,8 +18,6 @@ $ npm install -g coffee-once
 $ coffee-once --help
 $ coffee-once --version
 ```
-
-
 
 
 ## Documentation
@@ -40,5 +37,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 
-Copyright (c) 2014 Pierre Romera  
+Copyright (c) 2014 Pierre Romera
 Licensed under the MIT license.
