@@ -1,6 +1,6 @@
 {
   "name": "coffee-once",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/coffee-once.js",
   "description": "Compile the given coffee file once (until its changes).",
   "homepage": "http://github.com/pirhoo/coffee-once",
