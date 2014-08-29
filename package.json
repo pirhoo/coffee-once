@@ -1,6 +1,6 @@
 {
   "name": "coffee-once",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/coffee-once.js",
   "description": "Compile the given coffee file once (until its changes).",
   "homepage": "http://github.com/pirhoo/coffee-once",
@@ -36,7 +36,7 @@
   "bin": {
     "coffee-once": "cli.js"
   },
-  "preferGlobal": "false",
+  "preferGlobal": "true",
   "dependencies": {
     "coffee-script": "~1.8.0",
     "q": "^1.0.1"
