@@ -39,6 +39,6 @@
   "preferGlobal": "true",
   "dependencies": {
     "coffee-script": "~1.8.0",
-    "exec-sync": "~0.1.6"
+    "q": "^1.0.1"
   }
 }

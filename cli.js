@@ -16,5 +16,10 @@ if(userArgs.indexOf('-v') !== -1 || userArgs.indexOf('--version') !== -1) {
 }
 
 if(userArgs.length > 2) {
-	return console.log( coffeeOnce.compile(userArgs[userArgs.length-1], process.argv.slice(2).join(" ") ) );
+	var file = userArgs[userArgs.length-1];
+	var args = process.argv.slice(2).join(" ");
+	// Compile returns a promise
+	coffeeOnce.compile(file,  args).then(function(stdout) {
+		console.log(stdout);
+	});
 }
