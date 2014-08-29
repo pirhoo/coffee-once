@@ -1,0 +1,44 @@
+{
+  "name": "coffee-once",
+  "version": "0.0.0",
+  "main": "lib/coffee-once.js",
+  "description": "Compile the given coffee file once (until its changes).",
+  "homepage": "http://github.com/pirhoo/coffee-once",
+  "bugs": "https://github.com/pirhoo/coffee-once/issues",
+  "author": {
+    "name": "Pierre Romera",
+    "email": "hello@pirhoo.com",
+    "url": "http://pirhoo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirhoo/coffee-once"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "coffee-once"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "coffee-once": "cli.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "coffee-script": "~1.8.0",
+    "exec-sync": "~0.1.6"
+  }
+}
